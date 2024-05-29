@@ -27,8 +27,11 @@
 
     <!-- Icon Font Stylesheet -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
@@ -44,6 +47,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/lifestyle.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -78,12 +82,12 @@
         <span class="navbar-toggler-icon"></span>
       </button> -->
       <div class="d-flex justify-content-between">
-        <a
+        <!-- <a
           href="membership.html"
           class="btn submit-btn px-3"
           style="margin-right: 1rem"
           >Get Membership</a
-        >
+        > -->
         <a href="#contact-us" class="btn submit-btn px-3">Contact Us</a>
       </div>
     </nav>
@@ -134,21 +138,69 @@
             >
               <img
                 class="position-absolute w-100 h-100"
-                src="img/Villa-1BHK.jpg"
+                src="img/pricing-web.jpg"
                 alt="Villa and Resort"
                 style="object-fit: cover"
               />
             </div>
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            <h1 class="display-6 mb-3">Benefits of Club Ridhira</h1>
-            <p class="mb-4">
+            <h1 class="display-6 mb-4">Benefits of Club Ridhira</h1>
+
+            <div class="benefits-head">
+              <p>
+                <i class="fa-regular fa-hand-point-right"></i> &nbsp;
+                &nbsp;Access to More than 4,200 Affiliated Resorts in 110
+                Countries
+              </p>
+              <!-- <span> (Through Our RCI Network) </span> -->
+            </div>
+            <div class="benefits-head">
+              <p>
+                <i class="fa-regular fa-hand-point-right"></i> &nbsp; &nbsp;Stay
+                for 4 Weeks in a Year (*1 week in Peak Season)
+              </p>
+            </div>
+
+            <div class="benefits-head">
+              <p class="pb-2">
+                <i class="fa-regular fa-hand-point-right"></i> &nbsp; &nbsp;3
+                BHK Benefit Worth <b>₹ 62,000</b>
+              </p>
+              <ul>
+                <li>Complimentary Club Membership worth ₹ 8,000</li>
+                <li>12 Complimentary Airport Lounge access in India</li>
+                <li>3 Complimentary Airport Lounge across the globe</li>
+                <li>Complimentary access to Flight Delay service</li>
+                <li>Get upto 5% discount on Airport Meet & Assist service</li>
+              </ul>
+            </div>
+
+            <div class="benefits-head">
+              <p class="pb-2">
+                <i class="fa-regular fa-hand-point-right"></i> &nbsp; &nbsp;4
+                BHK Benefit Worth <b>₹ 4,00,000</b>
+              </p>
+              <ul>
+                <li>Complimentary Premium Club membership worth ₹ 8,000</li>
+                <li>Complimentary Meet and Assist Service</li>
+                <li>Complimentary Ode Spa Membership*</li>
+                <li>Unlimited Complimentary Airport Lounge across the globe</li>
+                <li>
+                  Unlimited access to Golf Games at selected golf courses in
+                  India
+                </li>
+              </ul>
+            </div>
+
+            <!--
+               <p class="mb-4">
+
               Discover Club Ridhira in Hyderabad, where luxury meets wellness.
               From our exclusive villas to the world-class Ode Spa, every day is
               a retreat into indulgence and well-being.
             </p>
             <div class="row g-3">
-              <!-- 1st Card -->
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="bg-light rounded h-100 p-3">
                   <div
@@ -163,7 +215,6 @@
                   </div>
                 </div>
               </div>
-              <!-- 2nd Card -->
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="bg-light rounded h-100 p-3">
                   <div
@@ -178,7 +229,6 @@
                   </div>
                 </div>
               </div>
-              <!-- 3rd Card -->
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                 <div class="bg-light rounded h-100 p-3">
                   <div
@@ -193,7 +243,6 @@
                   </div>
                 </div>
               </div>
-              <!-- 4th Card -->
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                 <div class="bg-light rounded h-100 p-3">
                   <div
@@ -208,7 +257,6 @@
                   </div>
                 </div>
               </div>
-              <!-- 5th Card -->
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="bg-light rounded h-100 p-3">
                   <div
@@ -223,7 +271,6 @@
                   </div>
                 </div>
               </div>
-              <!-- 6th Card -->
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
                 <div class="bg-light rounded h-100 p-3">
                   <div
@@ -238,7 +285,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -564,7 +611,167 @@
     <!--INDIA MAP AND INTRO START -->
 
     <!-- EXPLORE RESORT START -->
-    <div class="container-xxl py-5">
+    <div class="py-5">
+      <!-- <div
+        class="text-center mx-auto wow flipInX"
+        data-wow-delay="0.1s"
+        style="max-width: 900px"
+      >
+        <h1 class="outdoor-title outdoor-title-color heading-1">
+          Designer Landscape
+        </h1>
+      </div>
+      <div
+        class="text-left mx-auto mb-4 pt-4 wow flipInX"
+        data-wow-delay="0.1s"
+        style="max-width: 900px"
+      ></div> -->
+      <div
+        class="container-fluid lifestyle wow zoomInDown pt-0 pt-md-3"
+        data-wow-delay="0.1s"
+      >
+        <div class="container">
+          <div class="lifestyle-carousel owl-carousel">
+            <div class="lifestyle-item">
+              <div class="lifestyle-inner">
+                <h3>Ridhira</h3>
+                <h3>Where Wellness Meet Serenity</h3>
+                <div class="lifestyle-inner-img mb-4">
+                  <img
+                    src="img/wellness-features.jpg"
+                    alt="wellness features "
+                  />
+                  <div class="resort-feature-list mt-3">
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Global Wellness Center
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Spacious Reception For Group Gatherings
+                    </p>
+
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Wellness Concerned Features
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Ayurvedic Therapies
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Spa Therapies
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Hydro Therapy
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Mud Bath
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Vichy Shower
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Hammam
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Sathvic Dining For Curated Meals
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Pathways With Foot Reflexology Feature
+                    </p>
+
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Multiple Aroma Gardens
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Landscape Design that Invites Birds
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lifestyle-item">
+              <div class="lifestyle-inner">
+                <h3>Ridhira 5-Star Branded Resort</h3>
+                <h3>That Frames</h3>
+                <h3>Nature's Artwork</h3>
+
+                <div class="lifestyle-inner-img mb-4">
+                  <img
+                    src="img/resort-features.jpg"
+                    class="img-fluid"
+                    alt="Resort Features"
+                  />
+                  <div class="resort-feature-list mt-3">
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Global Wellness Center
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Dual Reception Lobby
+                    </p>
+
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;3 Restaurants (All-Day, Speciality, Satvik)
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Multiple Pools
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Gymnasium
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Culinary Lounge
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Yoga/Aerobics/Dance Studio
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Business Center With Boardroom & Audio-Visual Link
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Indoor & Outdoor Banquet Hall (500 Seating)
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Meditation and Sound Healing Room
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Water Slides Feature
+                    </p>
+
+                    <p>
+                      <i class="fa-regular fa-hand-point-right"></i>
+                      &nbsp;Indoor Games Room
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container-xxl py-5">
       <div class="container">
         <div class="text-center mx-auto" style="max-width: 900px">
           <h1 class="display-6 mb-3">Explore Resorts</h1>
@@ -577,14 +784,6 @@
           </p>
         </div>
         <div class="row g-4 justify-content-center">
-          <!-- 1st Card -->
-          <!-- <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <img
-              class="img-fluid"
-              src="img/1-resort-image.jpg"
-              alt="Cost-Effective Luxury villa in Hyderabad "
-            />
-          </div> -->
           <div class="container-xxl p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
             <div
               id="header-carousel"
@@ -649,7 +848,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- EXPLORE RESORT END -->
 
     <!-- Youtube Video Start -->

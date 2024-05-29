@@ -42,6 +42,20 @@
     time: 2000,
   });
 
+  $(".lifestyle-carousel").owlCarousel({
+    autoplay: true,
+    smartSpeed: 500,
+    loop: true,
+    nav: true,
+    dots: false,
+    items: 1,
+    dotsData: false,
+    navText: [
+      '<i class="bi bi-arrow-left"></i>',
+      '<i class="bi bi-arrow-right"></i>',
+    ],
+  });
+
   // Testimonials carousel
   $(".testimonial-carousel").owlCarousel({
     autoplay: true,
